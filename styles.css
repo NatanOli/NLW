@@ -35,7 +35,7 @@ header div {
   display: flex;
   padding: 4px;
 
-  transition: transform .2s;
+  transition: transform .4s;
 }
 header div:hover{
   transform: scale(1.1);
@@ -60,8 +60,6 @@ section {
   background-image: linear-gradient(90deg, #9572fc 0%, #43e7ad 52.52%, #e2d45c 100%);
   padding-top: 4px;
   border-radius: 10px;
-
-  margin-top: 32px;
 }
 
 section div {
@@ -87,10 +85,10 @@ section ul {
   margin-top: 24px;
 }
 section ul li {
-  transition: transform .3s;
+  transition: transform .4s;
 }
 section ul li:hover{
-  transform:scale (1.1)
+  transform:scale (1.1);
 }
 
 .games-list img {
@@ -105,13 +103,13 @@ section ul li:hover{
 }
 
 header div {
-  animation: fromTop .4s .1s backwards;
+  animation: fromTop .7s .4s backwards;
   }
 main section {
   animation: fromBottom .4s backwards;
 }
 main section:nth-child(1) {
-  animation-delay: 0;
+  animation-delay: .2;
 }
 main section:nth-last-child(2){
   animation-delay: .4s;
