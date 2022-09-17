@@ -105,10 +105,10 @@ section ul li:hover{
 }
 
 header div {
-  animation: fromTop .7s 2s backwards;
+  animation: fromTop .4s 0.1s backwards;
   }
 main section {
-  animation: fromBottom .7s backwards;
+  animation: fromBottom .4s backwards;
 }
 main section:nth-child(1) {
   animation-delay: 0;
