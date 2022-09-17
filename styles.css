@@ -97,19 +97,20 @@ section ul li:hover{
 }
 
 .channel-list img {
-  border-radius: 50%;
+  
   width: 70px;
+  border-radius: 50%;
   border: 1px solid #443E54;
 }
 
 header div {
-  animation: fromTop .7s .4s backwards;
+  animation: fromTop .7s .2s backwards;
   }
 main section {
-  animation: fromBottom .4s backwards;
+  animation: fromBottom .7s backwards;
 }
 main section:nth-child(1) {
-  animation-delay: .2;
+  animation-delay: .0;
 }
 main section:nth-last-child(2){
   animation-delay: .4s;
